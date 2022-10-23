@@ -76,18 +76,23 @@
                 android:inputType="textPassword" />
 
 
-            <TextView
-                android:id="@+id/textView"
+            <Button
+                android:id="@+id/sign_in_button"
                 android:layout_width="302dp"
                 android:layout_height="61dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="30dp"
-                android:background="@drawable/shape1"
+                android:backgroundTint="#58F8AB"
                 android:fontFamily="@font/montserrat_bold"
                 android:gravity="center"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:letterSpacing="0.05"
                 android:text="Войти"
+                android:textAllCaps="false"
                 android:textColor="#FFFFFF"
                 android:textSize="24sp" />
+
 
             <TextView
                 android:layout_width="wrap_content"
@@ -97,19 +102,24 @@
                 android:fontFamily="@font/montserrat"
                 android:text="Впервые у нас?"
                 android:textColor="@color/black"
-                android:textSize="16dp" />
+                android:textSize="16dp"
+                />
 
 
-            <TextView
-                android:id="@+id/textView2"
+            <Button
+                android:id="@+id/button_register_main"
                 android:layout_width="302dp"
                 android:layout_height="61dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
-                android:background="@drawable/shape1"
+                android:backgroundTint="#58F8AB"
                 android:fontFamily="@font/montserrat_bold"
                 android:gravity="center"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:letterSpacing="0.05"
                 android:text="Зарегистрироваться"
+                android:textAllCaps="false"
                 android:textColor="#FFFFFF"
                 android:textSize="24sp" />
 
